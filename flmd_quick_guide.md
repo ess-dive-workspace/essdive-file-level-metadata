@@ -32,7 +32,7 @@ Elements of the reporting format:
 |Metadata Element|standard|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|standard applied to the data file.|
-|Reporting Format Definition|Identify if an ESS-DIVE Reporting Format or any other data or metadata standard was applied to the data file. Standard names for the ESS-DIVE reporting formats are available in the [Standard FLMD Term List](https://github.com/ess-dive-community/essdive-file-level-metadata/blob/main/RF_FLMD_Standard_Terms.csv).| 
+|Reporting Format Definition|Identify if an ESS-DIVE Reporting Format or any other data or metadata standard was applied to the data file. Standard names for the ESS-DIVE reporting formats are available in the [Standard FLMD Term List](RF_FLMD_Standard_Terms.csv).| 
 |Required, Recommended or Optional|strongly recommended|
 |Format||
 
