@@ -21,7 +21,7 @@ Other documents:
 
 ---  
 ## Updates in v1.1.1
-In March 2025, a patch version of the File Level Metadata reporting format was made to improve the overall experience with the associated reporting format documentation. For more specific details, review the release notes for v1.1.1.
+In March 2025, a patch version of the File Level Metadata reporting format was made to improve the overall experience with the associated reporting format documentation.
 
 ## Updates in v1.1.0
 The File Level Metadata reporting format was updated in April of 2024 to address usability challenges and feedback from early adopters. All templates and instructions have been updated accordingly. These changes are backwards compatible and parsable by the ESS-DIVE Fusion Database. The revisions are as follows:
