@@ -1,4 +1,4 @@
-# ESS-DIVE File Level Metadata Reporting Format v1.1.0
+# ESS-DIVE File Level Metadata Reporting Format v1.1.1
 
 File level metadata provides granular information at the data file level to enable comparison of data files within a data set and the ability to search for and locate files across the data collection. The recommended file level metadata \(FLMD\) schema will describe the contents, scope, and structure of the data file within the ESS-DIVE repository. This metadata is fully consistent with and augments the metadata collected to describe each data set.
 
@@ -20,8 +20,11 @@ Other documents:
           - Includes [instructions](CSV_dd/README.md), [template](CSV_dd/CSV_dd_template.csv), and [example](CSV_dd/csv_dd_example.md)
 
 ---  
+## Updates in v1.1.1
+In March 2025, a patch version of the File Level Metadata reporting format was made to improve the overall experience with the associated reporting format documentation.
+
 ## Updates in v1.1.0
-The File Level Metadata reporting format was updated in April of 2024 to address usability challenges and feedback from early adopters in the community. All templates and instructions have been updated accordingly. These changes are backwards compatible and parsable by the ESS-DIVE Fusion Database. The revisions are as follows:
+The File Level Metadata reporting format was updated in April of 2024 to address usability challenges and feedback from early adopters. All templates and instructions have been updated accordingly. These changes are backwards compatible and parsable by the ESS-DIVE Fusion Database. The revisions are as follows:
 
 * Removing excess optional fields
   * In an effort to streamline the file level metadata file, we have removed the following optional fields from the documentation: _UTC offset, Contact, Date Start / Date End, Coordinates, Latitude / Longitude_
@@ -34,7 +37,7 @@ The File Level Metadata reporting format was updated in April of 2024 to address
   * The original FLMD field names used both underscores and capitalizations and did not follow a specific naming convention. In v1.1.0, we have updated the formatting of field names to follow snake case guidelines, for example File_Name -> file_name; Column_or_Row_Name -> column_or_row_name. No spelling or underscore placement has been revised. Our goal is to increase consistency and harmonize across the reporting formats. While templates and instructions have been updated to reflect this convention change, the original capitalization will still be accepted as long as spelling and use of underscores is consistent. 
 
 ## How to contribute  
-This ESS-DIVE File Level Metadata reporting format is evolving and growing to meet the needs of the community. Feedback and new contributions are welcome. If you would like to suggest a change to the file level metadata reporting format please submit a [GitHub issue](https://github.com/ess-dive-community/essdive-file-level-metadata/issues/new/choose) using one of the templates we provide.
+This ESS-DIVE File Level Metadata reporting format is evolving and growing to meet the needs of researchers. Feedback and new contributions are welcome. If you would like to suggest a change to the file level metadata reporting format please submit a [GitHub issue](https://github.com/ess-dive-workspace/essdive-file-level-metadata/issues/new/choose) using one of the templates we provide.
 
 If you have any questions about this reporting format, you can also directly email ESS-DIVE support at ess-dive-support@lbl.gov.  
 

@@ -14,7 +14,7 @@
             
 4. View an example [CSV\_dd\_example](csv_dd_example.md)  
 
-5. Save the CSV\_dd template following the [CSV Reporting Format guidance](https://github.com/ess-dive-community/essdive-csv-structure) with the filename "dd.csv" or "\*\_dd.csv". Alternatively you may choose to name you data dictionary:  
+5. Save the CSV\_dd template following the [CSV Reporting Format guidance](https://github.com/ess-dive-workspace/essdive-csv-structure) with the filename "dd.csv" or "\*\_dd.csv". Alternatively you may choose to name you data dictionary:  
 &nbsp;&nbsp;&nbsp;a. With the same name as the associated data file, but include '\_dd.csv' at the end of the file name  
 &nbsp;&nbsp;&nbsp;b. Create a unique filename for your data dictionary  
 &nbsp;&nbsp;&nbsp;c. Incorporate a wildcard into the filename if data dictionary applies to multiple data files (for example - "soil_cores_\*\_dd.csv")  
