@@ -13,7 +13,10 @@
 
 **Notes**
 
-* Fields common to ESS-DIVE Package Level Metadata are consistent in format structure  
+* Fields common to ESS-DIVE Package Level Metadata are consistent in format structure
+* If a data file has multiple header rows and/or additional header rows/columns before the row/column headers, be sure to provide entries for the “header_rows” and “column_or_row_name_position” fields. The inclusion of these files will be required for parsing the files.
+* If you have any header rows commented out with a hash (#), these should be skipped during parsing. Do not include any commented-out headers in the “header_rows” count.
+* Review the following examples for use of the “header_rows” and “column_or_row_name_position” fields: [example 1](flmd_header_rows_example_1.png), [example 2](flmd_header_rows_example_2.png), [example 3](flmd_header_rows_example_3.png).   
 
 **Contents of the Elements**
 
