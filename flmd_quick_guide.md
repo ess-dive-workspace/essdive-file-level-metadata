@@ -57,7 +57,7 @@ Elements of the reporting format:
 |Metadata Element|header_rows|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|Number of header rows.|
-|Reporting Format Definition|Provide the number of header rows that occur _after_ the column or row names in a file and _before_ the data begins. This field is marked as optional, but is required if the dataset has multiple header rows.|
+|Reporting Format Definition|Provide the total number of header rows before the start of the first data row, including the column header or row name (except for any commented-out headers). This field is marked as optional, but is required if any data files have more than one header row. Review the following examples for use of the “header_rows” field: [example 1](flmd_header_rows_example_1.png), [example 2](flmd_header_rows_example_2.png), [example 3](flmd_header_rows_example_3.png).|
 |Required, Recommended or Optional|optional, **required if dataset has multiple header rows**|
 |Format|number|
 
@@ -65,7 +65,7 @@ Elements of the reporting format:
 |Metadata Element|column_or_row_name_position|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|Position of the column or row that contains the column or row names.|
-|Reporting Format Definition|Provide the row or column number that contains the header names. This field is not required if there are no rows or columns before the row/column names. If not included, it will be assumed that header names are in row 1 (horizontal orientation) or column 1 (vertical orientation). If there are rows/columns after the header names, note these using the header_rows field.|
+|Reporting Format Definition|Provide the row or column number that contains the header names. This field is not required if there are no rows or columns before the row/column names. If not included, it will be assumed that header names are in row 1 (horizontal orientation) or column 1 (vertical orientation). If there are rows/columns after the header names, note these using the header_rows field. Review the following examples for use of the “column_or_row_name_position” field: [example 1](flmd_header_rows_example_1.png), [example 2](flmd_header_rows_example_2.png), [example 3](flmd_header_rows_example_3.png).|
 |Required, Recommended or Optional|optional, **required if rows or columns are provided before the row/column names**|
 |Format|number|
 
