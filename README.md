@@ -21,19 +21,11 @@ Other documents:
 
 ---  
 ## Updates in v1.1.2
-The File Level Metadata reporting format was updated in August of 2025 to address feedback from adopters. The changes made in v1.1.2 focused on providing clarification on metadata fields within the file level metadata and data dictionary files, and providing examples for the use of header_rows and column_or_row_name_position fields. No changes were made to the templates directly.
+The File Level Metadata reporting format was updated in August of 2025 to address feedback from adopters. The changes made in v1.1.2 focused on clarifying usage instructions for the fields `header_rows` and `column_or_row_name_position` in the File Level Metadata and the field `missing_value_code` in the Data Dictionary. No changes were made to the templates directly.
 
-* Provide clarity for header_rows field definition (File Level Metadata)
-    * Revise the definition of the header_rows field to provide additional clarity to avoid misinterpretation
-    * Revise the definition of the header_rows field to provide links to the example images
-* Revise column_or_row_name_position field description to include examples (File Level Metadata)
-    * Revise the definition of the column_or_row_name_position field to provide links to the example images
-* Incorporate examples of using header_rows and column_or_row_name_position fields (File Level Metadata)
-    * Provide examples of using the header_rows and column_or_row_name_position fields: [example 1](flmd_header_rows_example_1.png), [example 2](flmd_header_rows_example_2.png), [example 3](flmd_header_rows_example_3.png)
-* Revise FLMD instructions file (File Level Metadata)
-    * Provide clarity on the use of the header_rows and column_or_row_name_position fields and link to examples within the FLMD instructions
-* Provide clarity for missing_value_code field (Data Dictionary)
-    * Provide clarity on the missing_value_code, including that the field is to be used to specify a single missing value code
+* Provide usage examples for `header_rows` and `column_or_row_name_position` fields in the File Level Metadata quick guide and README: [example 1](flmd_header_rows_example_1.png), [example 2](flmd_header_rows_example_2.png), [example 3](flmd_header_rows_example_3.png)
+* Clarify the `header_rows` field definition (File Level Metadata) to avoid misinterpretation. 
+* Provide clarity on the usage for `missing_value_code` field (Data Dictionary), including that the field is to be used to specify a single missing value code.
 
 ## How to contribute  
 This ESS-DIVE File Level Metadata reporting format is evolving and growing to meet the needs of researchers. Feedback and new contributions are welcome. If you would like to suggest a change to the file level metadata reporting format please submit a [GitHub issue](https://github.com/ess-dive-workspace/essdive-file-level-metadata/issues/new/choose) using one of the templates we provide.
