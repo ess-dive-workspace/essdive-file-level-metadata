@@ -54,7 +54,7 @@ Elements of the data dictionary:
 | Metadata\_Element |missing_value_code|
 | :--- | :--- |
 |Reporting format statement| Report missing value code. |
-|Reporting format definition|Report missing value code for each column if applicable. For columns containing numeric data, use "-9999" as the missing value code. For columns containing character data, use "N/A" as the missing value code. If a missing value code is not applicable for a column, leave this entry blank.|
+|Reporting format definition|Report a single missing value code for each column, if applicable. Based on the [CSV reporting format guidelines](https://ess-dive.gitbook.io/csv-file-structure-reporting-format), for columns containing numeric data, we recommend you use "-9999" as the missing value code. For columns containing character data, we recommend you use "N/A" as the missing value code. If you would like to use a different missing value code, specify the used missing value code within this field. If a missing value code is not applicable for a column, leave this entry blank.|
 |Required, Recommended or Optional|optional|
 
 

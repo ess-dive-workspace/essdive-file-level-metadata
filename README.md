@@ -1,4 +1,4 @@
-# ESS-DIVE File Level Metadata Reporting Format v1.1.1
+# ESS-DIVE File Level Metadata Reporting Format v1.1.2
 
 File level metadata provides granular information at the data file level to enable comparison of data files within a data set and the ability to search for and locate files across the data collection. The recommended file level metadata \(FLMD\) schema will describe the contents, scope, and structure of the data file within the ESS-DIVE repository. This metadata is fully consistent with and augments the metadata collected to describe each data set.
 
@@ -20,21 +20,12 @@ Other documents:
           - Includes [instructions](CSV_dd/README.md), [template](CSV_dd/CSV_dd_template.csv), and [example](CSV_dd/csv_dd_example.md)
 
 ---  
-## Updates in v1.1.1
-In March 2025, a patch version of the File Level Metadata reporting format was made to improve the overall experience with the associated reporting format documentation.
+## Updates in v1.1.2
+The File Level Metadata reporting format was updated in August of 2025 to address feedback from adopters. The changes made in v1.1.2 focused on clarifying usage instructions for the fields `header_rows` and `column_or_row_name_position` in the File Level Metadata and the field `missing_value_code` in the Data Dictionary. No changes were made to the templates directly.
 
-## Updates in v1.1.0
-The File Level Metadata reporting format was updated in April of 2024 to address usability challenges and feedback from early adopters. All templates and instructions have been updated accordingly. These changes are backwards compatible and parsable by the ESS-DIVE Fusion Database. The revisions are as follows:
-
-* Removing excess optional fields
-  * In an effort to streamline the file level metadata file, we have removed the following optional fields from the documentation: _UTC offset, Contact, Date Start / Date End, Coordinates, Latitude / Longitude_
-  * The optional field _missing value codes_, which can be used to declare the codes representing missing values, has been added to the data dictionary file so that it can be used at the variable level.
-* Adding variables to allow for better handling of header rows that do not contain variable information
-  * The optional variables _header rows_ and _column or row name position_ can be used to provide the number of rows that occur either before or after variable names. Including these variables is important to increase the parsability of files with additional metadata rows that precede data entries. For more instruction on how to use these variables, please refer to our updated [File level metadata reporting format instructions](flmd_instructions.md).
-* Adding standard reporting format keywords to be used in the _standard_ field
-  * The optional _standard_ keyword in the file level metadata file can be used to declare a standard or format that a file follows. If a file uses an ESS-DIVE reporting format, we now recommend using the corresponding [FLMD standard name](RF_FLMD_Standard_Terms.csv).
-* Standardizing variable naming convention to snake case
-  * The original FLMD field names used both underscores and capitalizations and did not follow a specific naming convention. In v1.1.0, we have updated the formatting of field names to follow snake case guidelines, for example File_Name -> file_name; Column_or_Row_Name -> column_or_row_name. No spelling or underscore placement has been revised. Our goal is to increase consistency and harmonize across the reporting formats. While templates and instructions have been updated to reflect this convention change, the original capitalization will still be accepted as long as spelling and use of underscores is consistent. 
+* Provide usage examples for `header_rows` and `column_or_row_name_position` fields in the File Level Metadata quick guide and README: [example 1](flmd_header_rows_example_1.png), [example 2](flmd_header_rows_example_2.png), [example 3](flmd_header_rows_example_3.png)
+* Clarify the `header_rows` field definition (File Level Metadata) to avoid misinterpretation. 
+* Provide clarity on the usage for `missing_value_code` field (Data Dictionary), including that the field is to be used to specify a single missing value code.
 
 ## How to contribute  
 This ESS-DIVE File Level Metadata reporting format is evolving and growing to meet the needs of researchers. Feedback and new contributions are welcome. If you would like to suggest a change to the file level metadata reporting format please submit a [GitHub issue](https://github.com/ess-dive-workspace/essdive-file-level-metadata/issues/new/choose) using one of the templates we provide.
