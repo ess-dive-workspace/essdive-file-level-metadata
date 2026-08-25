@@ -2,7 +2,6 @@
 The File Level Metadata (FLMD) file is used to describe files contained within a single dataset.
 
 ## Resources
-- [Instructions](/file_level_metadata_flmd/instructions.md)
 - [Term Guide](/file_level_metadata_flmd/term_guide.md) and [Controlled Vocabulary](/file_level_metadata_flmd/controlled_vocabulary.md)
 - [Template](/file_level_metadata_flmd/template_flmd.csv)
 - [Examples](/file_level_metadata_flmd/examples/)
