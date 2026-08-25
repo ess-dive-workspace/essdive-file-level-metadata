@@ -1,13 +1,16 @@
-# Table of contents
+# Table of Contents
 
 * [Overview](README.md)
-* [Instructions](flmd_instructions.md)
-* [FLMD quick guide](flmd_quick_guide.md)
-* [FLMD example template](flmd_template_example.csv)
-* [Download FLMD template](flmd_template.csv)
-* [CSV Data Dictionary](CSV_dd/README.md)
-  * [CSV Data Dictionary quick guide](CSV_dd/csv_dd_quick_guide.md)
-  * [CSV Data Dictionary example template](CSV_dd/csv_dd_example.md)
-  * [Download CSV Data Dictionary template](CSV_dd/CSV_dd_template.csv)
+* [File Level Metadata File](/file_level_metadata_flmd)
+    * [Instructions](/file_level_metadata_flmd/instructions.md)
+    * [Term Guide](/file_level_metadata_flmd/term_guide.md)
+    * [Controlled Vocabulary](/file_level_metadata_flmd/controlled_vocabulary.md)
+    * [Template](/file_level_metadata_flmd/template_flmd.csv)
+    * [Examples](/file_level_metadata_flmd/examples)
+* [Data Dictionary File](/data_dictionary_dd)
+    * [Instructions](/data_dictionary_dd/instructions.md)
+    * [Term Guide](/data_dictionary_dd/term_guide.md)
+    * [Controlled Vocabulary](/data_dictionary_dd/controlled_vocabulary.md)
+    * [Template](/data_dictionary_dd/template_dd.csv)
+    * [Examples](/data_dictionary_dd/examples)
 * [License](LICENSE.md)
-
