@@ -1,0 +1,11 @@
+column_or_row_name,unit,definition,column_or_row_long_name,data_type,missing_value_code
+area,N/A,"Name of the intensive field site within the project. Possible values: Area A, Area B, Area C",Field site name,text,
+date_collected,yyyy-mm-dd,Date samples were collected in the field.,N/A,date,
+sample_ID,N/A,Samples were collected in the field and bags marked with sequential ID numbers.,Unique sample identifier,text,
+long,degree,Longitude provided in WGS84,Longitude,numeric,
+lat,degree,Latitude provided in WGS84,Latitude,numeric,
+sample_volume_collected,milligram per liter,The volume of the sample collected.,The volume of the sample collected.,numeric,
+sample_type,N/A,"Type of sample collection method. Possible values: ISCO, surface_grab",N/A,N/A,
+Fl,milligram per liter,Fluoride concentration.,Fluoride,numeric,-9999
+Cl,milligram per liter,Chloride concentration,Chloride,numeric,-9999
+Ca,milligram per liter,Calcium concentration,Calcium,numeric,-9999
