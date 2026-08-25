@@ -13,7 +13,7 @@ The FLMD and data dictionary reporting formats are organized into separate folde
 
 ---  
 ## Updates in v1.2.0
-_Details will be added once the reporting format is finalized and formally released. _
+_Details will be added once the reporting format is finalized and formally released._
 
 ## How to contribute  
 This ESS-DIVE File Level Metadata reporting format is evolving and growing to meet the needs of researchers. Feedback and new contributions are welcome. If you would like to suggest a change to the file level metadata reporting format please submit a [GitHub issue](https://github.com/ess-dive-workspace/essdive-file-level-metadata/issues/new/choose) using one of the templates we provide.
