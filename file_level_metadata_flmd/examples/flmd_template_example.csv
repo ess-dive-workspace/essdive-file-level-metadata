@@ -1,3 +1,0 @@
-﻿file_name,file_description,standard,file_version,data_orientation,header_rows,column_or_row_name_position,notes
-soil_samples_grsmnp_2019.csv,15 soil samples taken in the summer of 2019 using small hand trowel and soil probe.,ESS-DIVE CSV v1,2,vertical,2,2,File version changed Dec. 2019. Two columns were added to the data file since original publication. Columns add clarity for sample locations. No data were changed.
-SoilPoreWaterHillslope2019.csv,50 soil pore water samples taken from the hillslope at the site over a one year period.,ESS-DIVE CSV v1,1,vertical,,,
