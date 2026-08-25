@@ -2,9 +2,10 @@
 The File Level Metadata (FLMD) file is used to describe files contained within a single dataset.
 
 ## Resources
-- Term Guide and Controlled Vocabulary
-- Template
-- Examples
+- [Instructions](/file_level_metadata_flmd/flmd_instructions.md)
+- [Term Guide](/file_level_metadata_flmd/term_guide.md) and [Controlled Vocabulary](/file_level_metadata_flmd/controlled_vocabulary.md)
+- [Template](/file_level_metadata_flmd/template_flmd.csv)
+- [Examples](/file_level_metadata_flmd/examples/)
 
 ## Format
 - Comma delimited file (.csv) following the [CSV reporting format](https://github.com/ess-dive-workspace/essdive-csv-structure)
