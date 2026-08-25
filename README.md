@@ -1,31 +1,19 @@
-# ESS-DIVE File Level Metadata Reporting Format v1.1.2
+# ESS-DIVE File Level Metadata Reporting Format v1.2.0
 
-File level metadata provides granular information at the data file level to enable comparison of data files within a data set and the ability to search for and locate files across the data collection. The recommended file level metadata \(FLMD\) schema will describe the contents, scope, and structure of the data file within the ESS-DIVE repository. This metadata is fully consistent with and augments the metadata collected to describe each data set.
+## About the reporting format
+File level metadata provides granular information at the data file level to enable comparison of data files within a data set and the ability to search for and locate files across the data collection.
 
-## Getting started
+## Quickstart guide
 
-Instructions for how to use this reporting format:
-
-* [File level metadata reporting format instructions](flmd_instructions.md)
-
-Other documents:
-
-* [File level metadata quick guide](flmd_quick_guide.md)   
-* [File level metadata template](flmd_template.csv) 
-
-          - [Includes example template](flmd_template_example.csv)  
-
-* CSV Data Dictionary  
-
-          - Includes [instructions](CSV_dd/README.md), [template](CSV_dd/CSV_dd_template.csv), and [example](CSV_dd/csv_dd_example.md)
+The FLMD and data dictionary reporting formats are organized into separate folders as they can be used separately or together. For each of the reporting formats:
+1. **Read** the instruction documents to understand how to fill out the templates.
+2. **Review** the terminology guides and controlled vocabularies to understand definitions and requirements of each term used in the templates.
+3. **Download** a blank copy of the reporting format templates.
+4. **Save** your completed reporting format templates as CSV files and upload them to ESS-DIVE as part of your dataset.
 
 ---  
-## Updates in v1.1.2
-The File Level Metadata reporting format was updated in August of 2025 to address feedback from adopters. The changes made in v1.1.2 focused on clarifying usage instructions for the fields `header_rows` and `column_or_row_name_position` in the File Level Metadata and the field `missing_value_code` in the Data Dictionary. No changes were made to the templates directly.
-
-* Provide usage examples for `header_rows` and `column_or_row_name_position` fields in the File Level Metadata quick guide and README: [example 1](flmd_header_rows_example_1.png), [example 2](flmd_header_rows_example_2.png), [example 3](flmd_header_rows_example_3.png)
-* Clarify the `header_rows` field definition (File Level Metadata) to avoid misinterpretation. 
-* Provide clarity on the usage for `missing_value_code` field (Data Dictionary), including that the field is to be used to specify a single missing value code.
+## Updates in v1.2.0
+_Details will be added once the reporting format is finalized and formally released. _
 
 ## How to contribute  
 This ESS-DIVE File Level Metadata reporting format is evolving and growing to meet the needs of researchers. Feedback and new contributions are welcome. If you would like to suggest a change to the file level metadata reporting format please submit a [GitHub issue](https://github.com/ess-dive-workspace/essdive-file-level-metadata/issues/new/choose) using one of the templates we provide.
