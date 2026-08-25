@@ -18,7 +18,6 @@ The file level metadata terms are defined below, including whether that term is 
 |:----------------------------------------------------|:----------------------------------------------------|
 |requirement|required|
 |format|free text|
-|unit|N/A|
 |definition|Provide the name of the file. File names should be unique and as descriptive as possible about the file contents. Use only letters (e.g. CamelCase), numbers, and underscores. Do not include spaces. Hyphens allowed but not preferred. Use "\*" wildcard when the file name applies to multiple files. For example - the same file name applies to soil core files in the data package - "soil_cores_*.csv"|
 |example|measurements.csv|
 |additional guidance|If the files are organized into folders, it is recommended to include the full path, for example: /data/site2/temperature/temp_plot*.csv <br><br> Do not define the zip file name only within your File Level Metadata file.|
@@ -73,7 +72,7 @@ The file level metadata terms are defined below, including whether that term is 
 |:----------------------------------------------------|:----------------------------------------------------|
 |requirement|Required conditionally for files with more than one header row|
 |format|integer|
-|definition|Provide the total number of header rows before the start of the first data row, including the column header or row name. Do not include commented-out (i.e., column/rows that begin with a hash (#)) in the header_rows count. This field is required if any data files have more than one header row.|
+|definition|Provide the total number of header rows before the start of the first data row, including the column header or row name. Do not include commented-out (i.e., column/rows that begin with a hash (#)) in the header_rows count. This term is required if any data files have more than one header row.|
 |example|1|
 |additional guidance|N/A|
 
@@ -82,7 +81,7 @@ The file level metadata terms are defined below, including whether that term is 
 |:----------------------------------------------------|:----------------------------------------------------|
 |requirement|Required conditionally for files with rows or columns before the header names|
 |format|integer|
-|definition|Provide the row or column number that contains the header names. This field is required if there are rows or columns before the header names. If not provided,  the header names are assumed to be in row 1 (horizontal orientation) or column 1 (vertical orientation). Do not include commented-out (i.e., column/rows that begin with a hash (#)) in the column_or_row_name_position count.|
+|definition|Provide the row or column number that contains the header names. This term is required if there are rows or columns before the header names. If not provided,  the header names are assumed to be in row 1 (horizontal orientation) or column 1 (vertical orientation). Do not include commented-out (i.e., column/rows that begin with a hash (#)) in the column_or_row_name_position count.|
 |example|1|
 |additional guidance|N/A|
 
