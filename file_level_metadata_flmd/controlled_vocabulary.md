@@ -10,7 +10,7 @@ The File Level Metadata controlled vocabularies for applicable terms in the file
 This table includes reporting format version information, where relevant. The controlled vocabulary column contains the value to use within the `standard` term. 
 |Reporting Format| Controlled Vocabulary | Version Information |
 |:----------------------------------------------------|:----------------------------------------------------|:----------------------------------------------------|
-| File Level Metadata | ESS-DIVE CSV v1 | N/A |
+| File Level Metadata | ESS-DIVE FLMD v1 | N/A |
 | CSV File Formatting Guidelines | ESS-DIVE CSV v1 | N/A |
 | Location Metadata v1 | ESS-DIVE Location v1 | This is the **retired** version (v1) of the Location Metadata reporting format. |
 | Location Metadata v2 | ESS-DIVE Location v2 | This is the **latest** version (v2) of the Location Metadata reporting format. |
