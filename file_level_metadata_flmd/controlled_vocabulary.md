@@ -8,26 +8,33 @@ The File Level Metadata controlled vocabularies for applicable terms in the file
 ---
 ## standard
 This table includes reporting format version information, where relevant. The controlled vocabulary column contains the value to use within the `standard` term. 
-|Reporting Format| Controlled Vocabulary | Version Information |
+| Controlled Vocabulary | Definition |
+|:----------------------------------------------------|:----------------------------------------------------|
+| ESS-DIVE FLMD v1 | File Level Metadata |
+| ESS-DIVE CSV v1 | CSV File Formatting Guidelines |
+| ESS-DIVE Location v2 | Location Metadata v2 |
+| ESS-DIVE Sample v1 | Sample ID and Metadata |
+| ESS-DIVE Model Data v1 | Model Data Archiving Guidelines |
+| ESS-DIVE Amplicon v1 | Amplicon Sequencing |
+| ESS-DIVE Soil Respiration v1 | Soil Respiration |
+| ESS-DIVE Leaf-Level Gas Exchange v1 | Leaf-Level Gas Exchange |
+| ESS-DIVE UAS v1 | Unoccupied Aerial Systems (UAS) |
+| ESS-DIVE Sample Data - Full v1 | Sample Data - Full |
+| ESS-DIVE Sample Data - Lite v1 | Sample Data - Lite |
+| ESS-DIVE Sensor Time Series - Full v1 | Sensor Time Series - Full |
+| ESS-DIVE Sensor Time Series - Lite v1 | Sensor Time Series - Lite |
+
+#### Retired options
+The following reporting formats have been retired and replaced as noted in the Version Information column.
+
+| Controlled Vocabulary | Definition | Version Information |
 |:----------------------------------------------------|:----------------------------------------------------|:----------------------------------------------------|
-| File Level Metadata | ESS-DIVE FLMD v1 | N/A |
-| CSV File Formatting Guidelines | ESS-DIVE CSV v1 | N/A |
-| Location Metadata v1 | ESS-DIVE Location v1 | This is the **retired** version (v1) of the Location Metadata reporting format. |
-| Location Metadata v2 | ESS-DIVE Location v2 | This is the **latest** version (v2) of the Location Metadata reporting format. |
-| Sample ID and Metadata | ESS-DIVE Sample v1 | N/A |
-| Model Data Archiving Guidelines | ESS-DIVE Model Data v1 | N/A |
-| Amplicon Sequencing | ESS-DIVE Amplicon v1 | N/A |
-| Soil Respiration | ESS-DIVE Soil Respiration v1 | N/A |
-| Leaf-Level Gas Exchange | ESS-DIVE Leaf-Level Gas Exchange v1 | N/A |
-| Sample Data - Full | ESS-DIVE Sample Data - Full Reporting Format v1 | N/A |
-| Sample Data - Lite | ESS-DIVE Sample Data - Lite Reporting Format v1 | N/A |
-| Sensor Time Series - Full | ESS-DIVE Sensor Time Series - Full Reporting Format v1 | N/A |
-| Sensor Time Series - Lite | ESS-DIVE Sensor Time Series - Lite Reporting Format v1 | N/A |
-| Hydrologic Monitoring | ESS-DIVE Hydrologic Monitoring v1 | This reporting format is **retired** and has been replaced by the Sensor Time Series reporting format. |
-| Water-Soil-Sediment Chemistry | ESS-DIVE Water-Soil-Sediment Chem v1 | This reporting format is **retired** and has been replaced by the Sample Data reporting format. |
+| ESS-DIVE Location v1 | Location Metadata v1 | This version has been replaced by the Location Metadata v2 reporting format. | 
+| ESS-DIVE Hydrologic Monitoring v1 | Hydrologic Monitoring | This reporting format has been replaced by the Sensor Time Series reporting formats. | 
+| ESS-DIVE Water-Soil-Sediment Chem v1 | Water-Soil-Sediment Chemistry | This reporting format has been replaced by the Sample Data reporting formats.|
 
 ## data_orientation
-|Controlled Vocabulary|
-|:----------------------------------------------------|
-| horizontal |
-| vertical |
+|Controlled Vocabulary| Definition |
+|:----------------------------------------------------|:----------------------------------------------------|
+| horizontal | Data are organized in rows with column headers |
+| vertical | Data are organized in columns with row headers |
