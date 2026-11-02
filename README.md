@@ -1,7 +1,7 @@
 # ESS-DIVE File Level Metadata Reporting Format v1.2.0
 
 ## About the reporting format
-File level metadata provides granular information at the data file level to enable comparison of data files within a data set and the ability to search for and locate files across the data collection.
+File level metadata provides granular information at the file level to enable comparison of files within a data set and the ability to search for and locate files across the data collection.
 
 ## Quickstart guide
 
