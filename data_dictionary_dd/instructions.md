@@ -1,5 +1,5 @@
 # Instructions
-The data dictionary (DD) file is used to describe column or row name headers within CSV file(s). 
+The data dictionary (DD) file is used to describe column or row name headers within CSV or tabular file(s). 
 
 You have the following options when providing data dictionary file(s) for your dataset:
 - **1:1** – One data dictionary for each data file, or
@@ -21,11 +21,12 @@ Other reporting formats may have additional or other data dictionary requirement
 ## Minimum requirements
 - List and define all column or row headers in the CSV file, exactly as they appear
 - Specify the unit associated with the column or row header
-- Provide a short header description
+- Provide a brief header description
 - When publishing an FLMD on ESS-DIVE, include the following
-    - Include the keyword "ESS-DIVE File Level Metadata Reporting Format" within the dataset metadata Keywords section.
+    - Include the keyword "ESS-DIVE File Level Metadata Reporting Format" within the dataset metadata Keywords section unless another reporting format that uses a data dictionary specifies otherwise.
 
 ## Additional Guidance
-- Within a data dictionary file, the column_or_row_name values must be unique. If the same header name is used in multiple CSV files and have different definition, units, etc, separate data dictionary files must be provided for each specification of the header name.
+- Within a data dictionary file, the `column_or_row_name` values must be unique. If the same header name is used in multiple CSV files and has different definitions, units, etc., separate data dictionary files must be provided for each specification of the header name.
+- `missing_value_code` should be provided for a header if a code (e.g., Nan, -9999) is used to specify missing data or information with that header’s data or information.
 - The data dictionary can also be used to describe other tabular formats, but these other formats will not be parsed by ESS-DIVE.
-- Other reporting formats that have specific data dictionary requirements must be followed if the other reporting format is used within the data package.
+- Other reporting formats that have specific data dictionary requirements must be followed if the other reporting format is used within the data set.
