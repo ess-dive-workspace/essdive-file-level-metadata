@@ -18,9 +18,9 @@ The file level metadata terms are defined below, including whether that term is 
 |:----------------------------------------------------|:----------------------------------------------------|
 |requirement|required|
 |format|free text|
-|definition|Provide the name of the file. File names should be unique and as descriptive as possible about the file contents. Use only letters (e.g. CamelCase), numbers, and underscores. Do not include spaces. Hyphens allowed but not preferred. Use "\*" wildcard when the file name applies to multiple files. For example - the same file name applies to soil core files in the data package - "soil_cores_*.csv"|
+|definition|Provide the name of the file. File names should be unique and as descriptive as possible about the file contents. Use only letters, numbers, and underscores (e.g., snake_case_file_1.txt). Do not include spaces. Hyphens are allowed but not preferred.|
 |example|measurements.csv|
-|additional guidance|If the files are organized into folders, it is recommended to include the full path, for example: /data/site2/temperature/temp_plot*.csv <br><br> Do not define the zip file name only within your File Level Metadata file.|
+|additional guidance|If the files are organized into folders, it is recommended to include the full path, for example: /data/site2/temperature/temp_plot*.csv <br><br> Use "\*" wildcard when the file name applies to multiple files. For example, the same file name applies to soil core files in the data package: "soil_cores_*.csv" <br><br> Do not define the zip file name only within your File Level Metadata file.|
 
 ### file_description
 |term|`file_description`|
@@ -44,8 +44,8 @@ The file level metadata terms are defined below, including whether that term is 
 |term|`data_dictionary_file_name`|
 |:----------------------------------------------------|:----------------------------------------------------|
 |requirement|optional|
-|format|text; contains “dd.csv"|
-|definition|The file name of the data dictionary that corresponds to the provided “file_name” entry. The file name must be “dd.csv” or end with “_dd.csv”.|
+|format|text; contains “dd.csv"; cannot contain “\*”|
+|definition|The file name of the data dictionary that corresponds to the provided `file_name` entry. The file name must be “dd.csv” or end with “_dd.csv”.|
 |example|measurements_dd.csv|
 |additional guidance|This term is required for data files that are csv or other tabular format and that have an associated data dictionary file. Other reporting formats may require this term be provided for certain additional file types. <br><br> Wildcards are not permitted within the `data_dictionary_file_name`.|
 
@@ -81,7 +81,7 @@ The file level metadata terms are defined below, including whether that term is 
 |:----------------------------------------------------|:----------------------------------------------------|
 |requirement|Required conditionally for files with rows or columns before the header names|
 |format|integer|
-|definition|Provide the row or column number that contains the header names. This term is required if there are rows or columns before the header names. If not provided,  the header names are assumed to be in row 1 (horizontal orientation) or column 1 (vertical orientation). Do not include commented-out (i.e., column/rows that begin with a hash (#)) in the column_or_row_name_position count.|
+|definition|Provide the row or column number that contains the header names. This term is required if there are rows or columns before the header names. If not provided,  the header names are assumed to be in row 1 (horizontal data orientation) or column 1 (vertical data orientation). Do not include commented-out (i.e., column/rows that begin with a hash (#)) in the column_or_row_name_position count.|
 |example|1|
 |additional guidance|N/A|
 
