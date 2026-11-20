@@ -20,14 +20,14 @@ The file level metadata terms are defined below, including whether that term is 
 |format|free text|
 |definition|Provide the name of the file. File names should be unique and as descriptive as possible about the file contents. Use only letters, numbers, and underscores (e.g., snake_case_file_1.txt). Do not include spaces. Hyphens are allowed but not preferred.|
 |example|measurements.csv|
-|additional guidance|If the files are organized into folders, it is recommended to include the full path, for example: /data/site2/temperature/temp_plot*.csv <br><br> Use "\*" wildcard when the file name applies to multiple files. For example, the same file name applies to soil core files in the data package: "soil_cores_*.csv" <br><br> Do not define the zip file name only within your File Level Metadata file.|
+|additional guidance|If the files are organized into folders, it is recommended to include the full path, for example: /data/site2/temperature/temp_plot*.csv <br><br> Use "\*" wildcard when the file name applies to multiple files. For example, the same file name applies to soil core files in the data set: "soil_cores_*.csv" <br><br> Do not define the zip file name only within your File Level Metadata file.|
 
 ### file_description
 |term|`file_description`|
 |:----------------------------------------------------|:----------------------------------------------------|
 |requirement|required|
 |format|free text|
-|definition|A brief description (minimum of 10 characters) of the file and what distinguishes this file from other files in the data package. Include information about the type of data (images, observations, experimental, etc.)|
+|definition|A brief description (minimum of 10 characters) of the file and what distinguishes this file from other files in the data set. Include information about the type of data (images, observations, experimental, etc.)|
 |example|Geochemistry data measurements, including anions and cations, for 2025-06-08 to 2026-01-02.|
 |additional guidance|N/A|
 
@@ -35,7 +35,7 @@ The file level metadata terms are defined below, including whether that term is 
 |term|`standard`|
 |:----------------------------------------------------|:----------------------------------------------------|
 |requirement|recommended|
-|format|[Controlled vocabulary](https://github.com/ess-dive-workspace/essdive-file-level-metadata/blob/release-v1.2.0/file_level_metadata_flmd/controlled_vocabulary.md#standard)|
+|format|[Controlled vocabulary](../file_level_metadata_flmd/controlled_vocabulary.md#standard)|
 |definition|Identify if an ESS-DIVE Reporting Format or any other data or metadata standard was applied to the data file.|
 |example|ESS-DIVE FLMD v1|
 |additional guidance|Only one standard should be entered per file. <br><br> If you have a file that follows multiple reporting formats (e.g., Sample Data - Full and CSV guidelines reporting formats), provide the reporting format standard term that the file should be parsed as. For example, for files governed by the Sample Data - Full reporting format, the standard term should be “ESS-DIVE Sample Data - Full Reporting Format v1”, **not** “ESS-DIVE CSV File Formatting Guidelines Reporting Format”. <br><br> The version number within the standard term contains only the major version number. If a reporting format has minor and patch versions, these should not be provided within the standard term.|
@@ -54,7 +54,7 @@ The file level metadata terms are defined below, including whether that term is 
 |:----------------------------------------------------|:----------------------------------------------------|
 |requirement|optional|
 |format|free text|
-|definition|This is the version of the data file. The data file version is assigned by the data provider and not by the system. The version should change if the data file is updated after the data package is published or re-published. Explain the changes in the `notes` term.|
+|definition|This is the version of the data file. The data file version is assigned by the data provider and not by the system. The version should change if the data file is updated after the data set is published or re-published. Explain the changes in the `notes` term.|
 |example|version 1|
 |additional guidance|N/A|
 
@@ -62,7 +62,7 @@ The file level metadata terms are defined below, including whether that term is 
 |term|`data_orientation`|
 |:----------------------------------------------------|:----------------------------------------------------|
 |requirement|optional|
-|format|[Controlled vocabulary](https://github.com/ess-dive-workspace/essdive-file-level-metadata/blob/release-v1.2.0/file_level_metadata_flmd/controlled_vocabulary.md#data_orientation)|
+|format|[Controlled vocabulary](../file_level_metadata_flmd/controlled_vocabulary.md#data_orientation)|
 |definition|Describe how the data are organized within the data matrix. Choose between "horizontal" (i.e., data are organized in rows with column headers) or "vertical" (i.e., data are organized in columns with row headers).|
 |example|horizontal|
 |additional guidance|N/A|
