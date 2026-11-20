@@ -14,8 +14,8 @@ The data dictionary terms are defined below, including whether that term is requ
 |term|`column_or_row_name`|
 |:----------------------------------------------------|:----------------------------------------------------|
 |requirement|required|
-|format|free text|
-|definition|Column or row header name from the data file. Provide entries for each column or row name from the matrix in the data file.|
+|format|text; only UTF-8 characters are permitted|
+|definition|Column or row header name in the file. Provide entries for each column or row name in the file.|
 |example|temp_soil_2|
 |additional guidance|Column or row header name can be any text. Information will not be parsed from the header name.|
 
@@ -23,7 +23,7 @@ The data dictionary terms are defined below, including whether that term is requ
 |term|`unit`|
 |:----------------------------------------------------|:----------------------------------------------------|
 |requirement|required|
-|format|free text|
+|format|free text; [Controlled Vocabulary](https://ucum.org/ucum) recommended.|
 |definition|Unit of measurement.|
 |example|degree Celsius|
 |additional guidance|Insert "N/A" when units aren't applicable. <br><br>Strongly recommended to follow the [Unified Code of Unified Measurements (UCUM)](https://ucum.org/ucum) controlled vocabulary for units. <br><br>For date and datetime data types, you may use this term to indicate the format (e.g., YYYY-MM-DD hh:mm:ss).|
@@ -40,7 +40,7 @@ The data dictionary terms are defined below, including whether that term is requ
 ### column_or_row_long_name
 |term|`column_or_row_long_name`|
 |:----------------------------------------------------|:----------------------------------------------------|
-|requirement|recommended|
+|requirement|optional|
 |format|free text|
 |definition|Longer human-readable column or row name. Sometimes this may be identical to `definition` or `column_or_row_name`.|
 |example|temperature soil 2|
@@ -49,16 +49,16 @@ The data dictionary terms are defined below, including whether that term is requ
 ### data_type
 |term|`data_type`|
 |:----------------------------------------------------|:----------------------------------------------------|
-|requirement|optional|
-|format|[Controlled vocabulary](https://github.com/ess-dive-workspace/essdive-file-level-metadata/blob/release-v1.2.0/data_dictionary_dd/controlled_vocabulary.md#data_type)|
+|requirement|recommended if applicable|
+|format|[Controlled vocabulary](../data_dictionary_dd/controlled_vocabulary.md#data_type)|
 |definition|A description of the column/row header.|
-|example|Soil temperature replicate 2 at location loc_25d|
+|example|text|
 |additional guidance|N/A|
 
 ### missing_value_code
 |term|`missing_value_code`|
 |:----------------------------------------------------|:----------------------------------------------------|
-|requirement|optional|
+|requirement|recommended if applicable|
 |format|free text|
 |definition|The missing value code used for missing measurements. Only one code allowed.|
 |example|-9999|
