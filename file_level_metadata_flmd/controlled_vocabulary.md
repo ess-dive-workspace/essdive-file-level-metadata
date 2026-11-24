@@ -23,14 +23,12 @@ This table includes reporting format version information, where relevant. The co
 | ESS-DIVE UAS v1 | Unoccupied Aerial Systems (UAS) |
 
 #### Retired options
-The following reporting formats have been retired and replaced as noted in the Version Information column.
+The following reporting formats have been replaced and are scheduled to be retired as noted in the Version Information column.
 
 | Controlled Vocabulary | Definition | Version Information |
 |:----------------------------------------------------|:----------------------------------------------------|:----------------------------------------------------|
-| ESS-DIVE FLMD v1 | ESS-DIVE FLMD v1 | This version has been replaced by the File Level Metadata v2 reporting format. Version 1 will be deprecated on April 1, 2027.| 
-| ESS-DIVE Location v1 | Location Metadata v1 | This version has been replaced by the Location Metadata v2 reporting format. Version 1 will be deprecated on April 1, 2027.| 
-| ESS-DIVE Hydrologic Monitoring v1 | Hydrologic Monitoring | This reporting format has been replaced by the Sensor Time Series reporting formats. | 
-| ESS-DIVE Water-Soil-Sediment Chem v1 | Water-Soil-Sediment Chemistry | This reporting format has been replaced by the Sample Data reporting formats.|
+| ESS-DIVE FLMD v1 | File Level Metadata v1 | This version has been replaced by the File Level Metadata v2 reporting format. Version 1 will be retired on April 1, 2027.| 
+| ESS-DIVE Location v1 | Location Metadata v1 | This version has been replaced by the Location Metadata v2 reporting format. Version 1 will be retired on April 1, 2027.| 
 
 ## data_orientation
 |Controlled Vocabulary| Definition |
