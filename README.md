@@ -1,4 +1,5 @@
 # ESS-DIVE File Level Metadata Reporting Format v2.0.0
+_**Attention:** Previous versions (v1) of this reporting format are being phased out. We strongly recommend that you migrate to the latest version of the reporting format (v2.0.0)._
 
 ## About the reporting format
 File level metadata provides granular information at the file level to enable comparison of files within a data set and the ability to search for and locate files across the data collection.
@@ -20,6 +21,7 @@ The File Level Metadata reporting format was updated in November 2026 to improve
 - Added standalone controlled vocabulary documents for both the FLMD (`standard`, `data_orientation`) and DD (`data_type`, `unit`).
 - Expanded DD instructions to describe a third linking option (1:Multiple DDs).
 
+File Level Metadata versions 2.x.x are not backwards compatible with prior versions 1.x.x. Version 1.1.2 will be retired on April 1, 2027.
 
 ## How to contribute  
 This ESS-DIVE File Level Metadata reporting format is evolving and growing to meet the needs of researchers. Feedback and new contributions are welcome. If you would like to suggest a change to the file level metadata reporting format please submit a [GitHub issue](https://github.com/ess-dive-workspace/essdive-file-level-metadata/issues/new/choose) using one of the templates we provide.
