@@ -7,7 +7,7 @@ The File Level Metadata controlled vocabularies for applicable terms in the data
 
 ---
 ## unit
-The controlled vocabulary for the unit is based on the [Quantities, Units, Dimensions, and Types (QUDT)](https://www.qudt.org/doc/DOC_VOCAB-UNITS.html). The Definition provided for the controlled vocabulary is based upon the QUDT term name.
+The controlled vocabulary for the unit is based on the [Quantities, Units, Dimensions, and Types (QUDT)](https://www.qudt.org/doc/DOC_VOCAB-UNITS.html). The Definition provided for the controlled vocabulary is based upon the QUDT term name. For units not listed below, please visit QUDT to select the standardized unit vocabulary. Only if you cannot find your unit in QUDT, enter a custom unit.
 |Controlled Vocabulary|Definition|
 |:----------------------------------------------------|:----------------------------------------------------|
 |UNITLESS|Unitless. http://qudt.org/vocab/unit/UNITLESS|
