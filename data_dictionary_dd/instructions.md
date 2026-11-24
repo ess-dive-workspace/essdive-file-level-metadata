@@ -26,7 +26,8 @@ Other reporting formats may have additional or other data dictionary requirement
     - Include the keyword "ESS-DIVE File Level Metadata Reporting Format" within the dataset metadata Keywords section unless another reporting format that uses a data dictionary specifies otherwise.
 
 ## Additional Guidance
+- Wildcards are not permitted for the `column_or_row_name` term. There must be a 1:1 match for every header in the CSV and entry in the data dictionary for correct parsing.  Entries in the data dictionary file that do not have a match in the CSV file will be ignored during ESS-DIVE parsing.
 - Within a data dictionary file, the `column_or_row_name` values must be unique. If the same header name is used in multiple CSV files and has different definitions, units, etc., separate data dictionary files must be provided for each specification of the header name.
-- `missing_value_code` should be provided for a header if a code (e.g., Nan, -9999) is used to specify missing data or information with that header’s data or information.
+- `missing_value_code` should be provided for a header name if a code (e.g., Nan, -9999) is used to specify missing data or information with that header’s data or information.
 - The data dictionary can also be used to describe other tabular formats, but these other formats will not be parsed by ESS-DIVE.
 - Other reporting formats that have specific data dictionary requirements must be followed if the other reporting format is used within the data set.
