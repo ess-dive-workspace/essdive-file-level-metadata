@@ -1,0 +1,37 @@
+# Controlled Vocabulary
+The File Level Metadata controlled vocabularies for applicable terms in the file level metadata file template can be found below.
+
+### Controlled vocabularies are available for the following terms:
+- [standard](#standard)
+- [data_orientation](#data_orientation)
+
+---
+## standard
+This table includes reporting format version information, where relevant. The controlled vocabulary column contains the value to use within the `standard` term. 
+| Controlled Vocabulary | Definition |
+|:----------------------------------------------------|:----------------------------------------------------|
+| ESS-DIVE FLMD v2 | File Level Metadata v2 |
+| ESS-DIVE CSV v1 | CSV File Formatting Guidelines |
+| ESS-DIVE Location v2 | Location Metadata v2 |
+| ESS-DIVE Sample v1 | Sample ID and Metadata |
+| ESS-DIVE Model Data v1 | Model Data Archiving Guidelines |
+| ESS-DIVE Amplicon v1 | Amplicon Sequencing |
+| ESS-DIVE Hydrologic Monitoring v1 | Hydrologic Monitoring |
+| ESS-DIVE Water-Soil-Sediment Chem v1 | Water-Soil-Sediment Chemistry |
+| ESS-DIVE Soil Respiration v1 | Soil Respiration |
+| ESS-DIVE Leaf-Level Gas Exchange v1 | Leaf-Level Gas Exchange |
+| ESS-DIVE UAS v1 | Unoccupied Aerial Systems (UAS) |
+
+#### Retired options
+The following reporting formats have been replaced and are scheduled to be retired as noted in the Version Information column.
+
+| Controlled Vocabulary | Definition | Version Information |
+|:----------------------------------------------------|:----------------------------------------------------|:----------------------------------------------------|
+| ESS-DIVE FLMD v1 | File Level Metadata v1 | This version has been replaced by the File Level Metadata v2 reporting format. Version 1 will be retired on April 1, 2027.| 
+| ESS-DIVE Location v1 | Location Metadata v1 | This version has been replaced by the Location Metadata v2 reporting format. Version 1 will be retired on April 1, 2027.| 
+
+## data_orientation
+|Controlled Vocabulary| Definition |
+|:----------------------------------------------------|:----------------------------------------------------|
+| horizontal | Data are organized in rows with column headers |
+| vertical | Data are organized in columns with row headers |
